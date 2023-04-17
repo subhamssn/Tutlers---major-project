@@ -15,36 +15,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
     <!-- header section starts-->
 
-     <header class="header">
-
-         <section class="flex">
-
-             <a href="#home" class="logo">TUT<span>LERS</span></a>
-
-             <nav class="navbar">
-                <a href="#home">home</a>
-                <a href="#about">about</a>
-                <a href="#home">courses</a>
-                <a href="#home">teachers</a>
-                <a href="#home">reviews</a>
-                <a href="#home">contact</a>
-             </nav>
-
-             <div id="menu-btn" class="fas fa-bars">
-
-             </div>
- 
-         </section>
-
-
-
-     </header>
+     <%- include('partials/navbar') %>
 
      <!-- header section ends-->
 
@@ -64,7 +41,7 @@
 
 
             <div class="image">
-                <img src="/public/images/homeImage2.png">
+                <img src="/static/images/homeImage2.png" alt="">
             </div>
 
 
@@ -136,7 +113,7 @@
         <div class="row">
 
             <div class="image">
-                <img src="images/aboutImage.png" alt="">
+                <img src="/static/images/aboutImage.png" alt="">
             </div>
 
             <div class="content">
@@ -164,21 +141,21 @@
 
                <div class="swiper-wrapper">
                    <div class="swiper-slide slide">
-                      <img src="images/coursesImage1.png" alt="">
+                      <img src="/static/images/coursesImage1.png" alt="">
                       <h3>Web Development</h3>
                       <p>Lorem Ipsum is simply dummy text of the printing and   
                         since the 1500s,</p>
                    </div>
 
                    <div class="swiper-slide slide">
-                    <img src="images/coursesImage2.jpg" alt="">
+                    <img src="/static/images/coursesImage2.jpg" alt="">
                     <h3>Digital Marketing</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and   
                       since the 1500s,</p>
                  </div>
 
                  <div class="swiper-slide slide">
-                    <img src="images/coursesImage4.jpg" alt="">
+                    <img src="/static/images/coursesImage4.jpg" alt="">
                     <h3>And. Development</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                       since the 1500s,</p>
@@ -186,14 +163,14 @@
 
 
                  <div class="swiper-slide slide">
-                    <img src="images/coursesImage4.jpg" alt="">
+                    <img src="/static/images/coursesImage4.jpg" alt="">
                     <h3>And. Development</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                       since the 1500s,</p>
                  </div>
 
                  <div class="swiper-slide slide">
-                    <img src="images/coursesImage5.avif" alt="">
+                    <img src="/static/images/coursesImage5.avif" alt="">
                     <h3>And. Development</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and 
                       since the 1500s,</p>
@@ -232,7 +209,7 @@
                     </p>
 
                     <div class="user">
-                       <img src="images/userImage.jpg" alt="">
+                       <img src="/static/images/userImage.jpg" alt="">
                        <div class="user-info">
                           <h3>Singh Joy</h3>
                           <div class="stars">
@@ -256,7 +233,7 @@
                     </p>
 
                     <div class="user">
-                       <img src="images/userImage.jpg" alt="">
+                       <img src="/static/images/userImage.jpg" alt="">
                        <div class="user-info">
                           <h3>Singh Joy</h3>
                           <div class="stars">
@@ -279,7 +256,7 @@
                     </p>
 
                     <div class="user">
-                       <img src="images/userImage.jpg" alt="">
+                       <img src="/static/images/userImage.jpg" alt="">
                        <div class="user-info">
                           <h3>Singh Joy</h3>
                           <div class="stars">
@@ -302,7 +279,7 @@
                     </p>
 
                     <div class="user">
-                       <img src="images/userImage.jpg" alt="">
+                       <img src="/static/images/userImage.jpg" alt="">
                        <div class="user-info">
                           <h3>Singh Joy</h3>
                           <div class="stars">
@@ -325,7 +302,7 @@
                     </p>
 
                     <div class="user">
-                       <img src="images/userImage.jpg" alt="">
+                       <img src="/static/images/userImage.jpg" alt="">
                        <div class="user-info">
                           <h3>Singh Joy</h3>
                           <div class="stars">
@@ -348,7 +325,7 @@
                     </p>
 
                     <div class="user">
-                       <img src="images/userImage.jpg" alt="">
+                       <img src="/static/images/userImage.jpg" alt="">
                        <div class="user-info">
                           <h3>Singh Joy</h3>
                           <div class="stars">
@@ -383,7 +360,7 @@
          <div class="row">
 
              <div class="image">
-                <img src="images/contactImage.png" alt="">
+                <img src="/static/images/contactImage.png" alt="">
 
              </div>
            
@@ -431,31 +408,14 @@
 
     <!--footer section starts-->
 
-     <footer class="footer">
-
-       <section>
-
-         <div class="share">
-           <a href="#" class="fab fa-facebook-f"></a>
-           <a href="#" class="fab fa-twitter"></a>
-           <a href="#" class="fab fa-linkedin"></a>
-           <a href="#" class="fab fa-instagram"></a>
-           <a href="#" class="fab fa-youtube"></a>
-           
-         </div>
-
-         <div class="credit">&copy; copyright @2023 by <span>Tutlers Team</span> | all rights reserved</div>
-
-       </section>
-
-     </footer>
+     <%- include('partials/footer') %>
 
     <!--footer section starts-->
 
      <!--swiper script - use swiper.js website-->
      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
      <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-     <script type="text/javascript" src="script.js"></script>
+     <script type="text/javascript" src="/static/script.js"></script>
      
 </body>
 </html>

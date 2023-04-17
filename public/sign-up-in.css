@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600;700&display=swap');
+
+
+:root{
+    --green: #19A7CE;
+    --white: --black;
+    --light-white: #aaa;
+    --black: --black;
+    --light-bg: #fff;
+}
+
+*{
+    font-family: 'Rubik', sans-serif;
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: .2s linear;
+    text-transform: capitalize;
+}
+
+*::selection{
+    background-color: var(--white);
+    color: var(--black);
+}
+
+html{
+    font-size: 6;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+
+::-webkit-scrollbar{
+    height: 1px;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--green);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--green);
+    border-radius: 0.5rem;
+}
+
+body{
+    background-color: var(--black);
+}
+
+section{
+    max-width: 100%;
+    margin:0;
+    padding: 1.6rem;
+}
+
+.contains{
+    padding: 5rem;
+    background-color: white;
+}
+
+.container{
+    height: 80vh;
+    width: 100%;
+
+    background-color: #f8f9ff;
+    background-image: url("images/background.png");
+    background-position-x: 100rem;
+    background-position-y: 100rem;
+    box-shadow: 10px 10px 40px 2px #19A7CE;
+
+    border: 1px solid #19A7CE;
+    border-radius: 20px;
+
+    
+    
+}
+
+.form-box{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem;
+    text-align: center;
+     
+}
+
+.form-box h1{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: black;
+    position: relative;
+}
+
+.form-box h1::after{
+    content: '';
+    width: 5rem;
+    height: 4px;
+    border-radius: 3px;
+    background: black;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.input-field{
+    background-color: rgb(231, 231, 231);
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 1.2rem;
+
+}
+
+.input-field i{
+    margin-left: 1rem;
+    color: #19A7CE;
+}
+
+form p{
+    text-align: left;
+    font-size: 1.2rem;
+
+}
+
+form p a{
+    text-decoration: none;
+    color: #19A7CE;
+}
+
+.btn-field{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4rem;
+    
+    text-align: center;
+    margin-top: 3rem;
+    border: 2px solid red;
+   
+    
+}
+
+.btn-field button{
+    
+    background: #19A7CE;
+    color: black;
+    height:3rem;
+    width: 10rem;
+    border-radius: 20px;
+    border: 1px solid var(--green);
+    font-size: 1.3rem;
+ 
+    cursor: pointer;
+    box-shadow: 10px 10px 20px 1px rgb(105, 187, 173);
+    
+    
+    
+}
+
+.btn-field button:hover{
+    background-color: white;
+    border: 2px solid var(--green);
+
+}
+
+
