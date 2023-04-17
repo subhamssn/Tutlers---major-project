@@ -137,6 +137,35 @@ span{
     color: var(--green);
 }
 
+.login-home{
+    
+    width: 10%;
+    height: 2.6rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    text-align: center;
+    border: 1px solid var(--green);
+    padding-top: 0.4rem;
+    
+}
+
+.login-home a i{
+    color: black;
+}
+
+.login-home a{
+    text-decoration: none;
+    color: var(--green);
+    font-size: 1.2rem;
+    
+}
+
+.login-home:hover{
+    background-color: white;
+    border: 2px solid var(--green);
+    text-decoration-color: black;
+}
+
 #menu-btn{
     cursor: pointer;
     color: var(--white);

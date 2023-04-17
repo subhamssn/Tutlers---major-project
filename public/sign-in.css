@@ -185,4 +185,12 @@ form p a{
 
 }
 
+.register-p{
+    margin-top: 3rem;
+}
+
+.register-p:hover{
+    
+    color: black;
+}
 

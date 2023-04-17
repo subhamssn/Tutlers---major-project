@@ -14,51 +14,19 @@
      <!-- fond awesome cdn link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     
-    <link rel="stylesheet" href="/static/sign-up-in.css">
-    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/sign-in.css">
 
 
 </head>
 <body>
-
-    <header class="header">
-
-        <section class="flex">
-    
-            <a href="/" class="logo">TUT<span>LERS</span></a>
-    
-            <nav class="navbar">
-               <a href="#home">home</a>
-               <a href="#about">about</a>
-               <a href="#course">courses</a>
-               
-               <a href="#home">reviews</a>
-               <a href="#home">contact</a>
-            </nav>
-    
-            
-    
-            <div id="menu-btn" class="fas fa-bars">
-    
-            </div>
-    
-        </section>
-    
-    
-    
-    </header>
     
     <div class="contains">
         <div class="container">
            <div class="form-box">
-            <h1>Sign Up</h1>
+            <h1>Sign In</h1>
             <form action="/create" method="POST">
                 <div class="input-group">
-                    <div class="input-field">
-                        <i class="fa-solid fa-user"></i>
-                        <input type="text" name="name" placeholder="Enter Name" required>
-
-                    </div>
+                    
 
                     <div class="input-field">
                         <i class="fa-solid fa-envelope"></i>
@@ -71,16 +39,17 @@
                         <input type="password" name="password" placeholder="Enter Password" required>
                         
                     </div>
-                    <div class="input-field">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" name="confirm-password" placeholder="Confirm Password" required>   
-                    </div>
+                    
                     <p>Forgot Password? <a href="#">Click Here</a></p>
+
+                    <p class="register-p"><a href="/users/sign-up">Register Now</a></p>
                 </div>
                 <div class="btn-field">
-                    <button type="submit">Sign Up</button>
+                    <button type="submit">Sign In</button>
                     
                 </div>
+
+                
                 </form>
             </form>
            </div>
