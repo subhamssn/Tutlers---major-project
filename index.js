@@ -12,6 +12,7 @@ app.set('views', path.join(__dirname, 'views'));
 
 
 app.use('/', require('./routes'));
+app.use('', require('./routes'));
 
 app.listen(port, function(err){
     if(err){
