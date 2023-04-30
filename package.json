@@ -2,7 +2,26 @@
   "dependencies": {
     "ejs": "^3.1.9",
     "express": "^4.18.2",
-    "node": "^19.8.1",
+    "express-ejs-layouts": "^2.5.1",
+    "mongoose": "^7.1.0",
     "nodemon": "^2.0.22"
-  }
+  },
+  "name": "llearn-website",
+  "version": "1.0.0",
+  "description": "tutlers-application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subhamssn/Tutlers---major-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/subhamssn/Tutlers---major-project/issues"
+  },
+  "homepage": "https://github.com/subhamssn/Tutlers---major-project#readme"
 }

@@ -1,58 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <link
-    rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
-    />
 
-     <!-- fond awesome cdn link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
     <link rel="stylesheet" href="/static/sign-up-in.css">
-    <link rel="stylesheet" href="/static/style.css">
-
-
-</head>
-<body>
-
-    <header class="header">
-
-        <section class="flex">
-    
-            <a href="/" class="logo">TUT<span>LERS</span></a>
-    
-            <nav class="navbar">
-               <a href="#home">home</a>
-               <a href="#about">about</a>
-               <a href="#course">courses</a>
-               
-               <a href="#home">reviews</a>
-               <a href="#home">contact</a>
-            </nav>
-    
-            
-    
-            <div id="menu-btn" class="fas fa-bars">
-    
-            </div>
-    
-        </section>
-    
-    
-    
-    </header>
     
     <div class="contains">
         <div class="container">
            <div class="form-box">
             <h1>Sign Up</h1>
-            <form action="/create" method="POST">
+            <form action="/users/create" method="POST">
                 <div class="input-group">
                     <div class="input-field">
                         <i class="fa-solid fa-user"></i>
@@ -75,7 +29,7 @@
                         <i class="fa-solid fa-lock"></i>
                         <input type="password" name="confirm-password" placeholder="Confirm Password" required>   
                     </div>
-                    <p>Forgot Password? <a href="#">Click Here</a></p>
+                    
                 </div>
                 <div class="btn-field">
                     <button type="submit">Sign Up</button>
@@ -92,5 +46,3 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
-</body>
-</html>
