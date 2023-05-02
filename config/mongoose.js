@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/codeialThree-dev');
+mongoose.connect('mongodb://localhost/tutlersMajor-dev');
 
 const db = mongoose.connection;
 
