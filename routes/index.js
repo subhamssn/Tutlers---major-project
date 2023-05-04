@@ -6,6 +6,7 @@ const homeController = require('../controllers/home_controller');
 console.log('router loaded');
 
 router.get('/', homeController.home);
+router.get('/animated-stories', homeController.animatedStories);
 
 router.use('/users', require('./users'));
 
