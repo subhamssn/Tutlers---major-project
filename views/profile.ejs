@@ -1,6 +1,94 @@
 
-    <h1> Codeial / <%= title %></h1>
+    <link rel="stylesheet" href="/static/profile.css">
+    <script src="https://kit.fontawesome.com/b8b432d7d3.js" crossorigin="anonymous"></script>
+
     
-    <p><%= user.name %></p>
-    <p><%= user.email %></p>
+    <div class="container">
+
+        <div class="profile-card">
+            <div class="profile-header"><!-- profile header section -->
+                <div class="main-profile">
+                    <div class="profile-image"></div>
+                    <div class="profile-names">
+                        <h1 class="username"><%= user.name %></h1>
+                        <small class="page-title"><%= user.email %></small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="profile-body"><!-- profile body section -->
+                <div class="profile-actions">
+                    <button class="follow">Follow</button>
+                    <button class="message">Message</button>
+                    <section class="bio">
+                        <div class="bio-header">
+                            <i class="fa fa-info-circle"></i>
+                            Bio
+                        </div>
+                        <p class="bio-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        </p>
+                    </section>
+                </div>
+
+                <div class="account-info">
+                    <div class="data">
+                        <div class="important-data">
+                            <section class="data-item">
+                                <h3 class="value">104</h3>
+                                <small class="title">Topics</small>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">21</h3>
+                                <small class="title">Solutions</small>
+                            </section>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">51</h3>
+                                <small class="title">Comments</small>
+                            </section>
+                        </div>
+                        <div class="other-data">
+                            <section class="data-item">
+                                <h3 class="value">41</h3>
+                                <small class="title">Posts</small>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">12</h3>
+                                <small class="title">Subscriptions</small>
+                            </section>
+                            <section class="data-item">
+                                <h3 class="value">2</h3>
+                                <small class="title">Saved</small>
+                            </section>
+                        </div>
+                    </div>
+
+                    <div class="social-media">
+                        <span>Follow me in:</span>
+                        <a href="" class="media-link"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/MammadSahragard" class="media-link"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.linkedin.com/in/mohammadsahragard/" class="media-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/mammad.sahragard/" class="media-link"><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://github.com/MohammadSahragard" class="media-link"><i class="fab fa-github-square"></i></a>
+                    </div>
+
+                    <div class="last-post">
+                        <div class="post-cover">
+                            <span class="last-badge">Last Post</span>
+                        </div>
+                        <h3 class="post-title">Latest Posts</h3>
+                        <button class="post-CTA">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+    
+   
+    
+    
     

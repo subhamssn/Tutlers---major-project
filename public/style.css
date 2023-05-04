@@ -137,6 +137,19 @@ span{
     color: var(--green);
 }
 
+
+.user-icon{
+    font-size: 1.5rem;
+    margin-right: 1px;
+    
+}
+
+.profile-button{
+    cursor: pointer;
+    font-size: 1rem;
+    background: none;
+}
+
 .login-home{
     
     width: 10%;
@@ -147,7 +160,14 @@ span{
     border: 1px solid var(--green);
     padding-top: 0.4rem;
     
+    
 }
+
+.profile-page{
+    height: 60vh;
+    padding-top: 5rem;
+}
+
 
 .login-home a i{
     color: black;
