@@ -55,3 +55,7 @@ module.exports.destroySession = function(req, res, next){
   });
   return res.redirect('/');
 }
+
+module.exports.dashboard = function(req, res){
+  return res.render('dashboard');
+}
